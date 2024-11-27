@@ -2,7 +2,7 @@ import { User } from "./User";
 import { Company } from "./Company";
 
 // Instructions to every other class on how they can be an argument to "addMarker"
-interface Mappable {
+export interface Mappable {
   // location is an object with lat and lng properties
   location: {
     lat: number;
